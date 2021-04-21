@@ -8,7 +8,7 @@ import com.shashank.noteapp.entity.Note
 import com.shashank.noteapp.dao.NoteDao
 
 //Database annotation to specify the entities and set version
-@Database(entities = [Note::class], version = 3, exportSchema = false)
+@Database(entities = [Note::class], version = 1, exportSchema = false)
 abstract class NoteRoomDatabase : RoomDatabase() {
 
     companion object {
